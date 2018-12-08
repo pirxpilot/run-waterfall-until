@@ -1,0 +1,27 @@
+{
+  "name": "run-waterfall-until",
+  "version": "0.0.0",
+  "description": "Like run-waterfall but tasks can break out of the loop.",
+  "author": {
+    "name": "Damian Krzeminski",
+    "email": "pirxpilot@furkot.com",
+    "url": "https://pirxpilot.me"
+  },
+  "repository": "pirxpilot/run-waterfall-until",
+  "license": "MIT",
+  "keywords": [
+    "run-waterfall-until",
+    "async"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "^2.9.7",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "make check"
+  },
+  "files": [
+    "index.js"
+  ]
+}
