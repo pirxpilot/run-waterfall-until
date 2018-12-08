@@ -1,6 +1,6 @@
 {
   "name": "run-waterfall-until",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Like run-waterfall but tasks can break out of the loop.",
   "author": {
     "name": "Damian Krzeminski",
