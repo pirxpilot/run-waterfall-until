@@ -7,7 +7,7 @@
     "email": "pirxpilot@furkot.com",
     "url": "https://pirxpilot.me"
   },
-  "repository": "pirxpilot/run-waterfall-until",
+  "repository": "github:pirxpilot/run-waterfall-until",
   "license": "MIT",
   "keywords": [
     "run-waterfall-until",
@@ -15,8 +15,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "jshint": "^2.9.7",
-    "mocha": "^5.2.0"
+    "@pirxpilot/jshint": "~3"
   },
   "scripts": {
     "test": "make check"

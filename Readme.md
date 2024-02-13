@@ -1,7 +1,6 @@
 [![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
+[![Build Status][build-image]][build-url]
 [![Dependency Status][deps-image]][deps-url]
-[![Dev Dependency Status][deps-dev-image]][deps-dev-url]
 
 # run-waterfall-until
 
@@ -50,14 +49,12 @@ MIT © [Damian Krzeminski](https://pirxpilot.me)
 
 [run-waterfall]: https://www.npmjs.com/package/run-waterfall
 
-[npm-image]: https://img.shields.io/npm/v/run-waterfall-until.svg
+[npm-image]: https://img.shields.io/npm/v/run-waterfall-until
 [npm-url]: https://npmjs.org/package/run-waterfall-until
 
-[travis-url]: https://travis-ci.com/pirxpilot/run-waterfall-until
-[travis-image]: https://img.shields.io/travis/com/pirxpilot/run-waterfall-until.svg
+[build-url]: https://github.com/pirxpilot/run-waterfall-until/actions/workflows/check.yaml
+[build-image]: https://img.shields.io/github/actions/workflow/status/pirxpilot/run-waterfall-until/check.yaml?branch=main
 
-[deps-image]: https://img.shields.io/david/pirxpilot/run-waterfall-until.svg
-[deps-url]: https://david-dm.org/pirxpilot/run-waterfall-until
+[deps-image]: https://img.shields.io/librariesio/release/npm/run-waterfall-until
+[deps-url]: https://libraries.io/npm/run-waterfall-until
 
-[deps-dev-image]: https://img.shields.io/david/dev/pirxpilot/run-waterfall-until.svg
-[deps-dev-url]: https://david-dm.org/pirxpilot/run-waterfall-until?type=dev
