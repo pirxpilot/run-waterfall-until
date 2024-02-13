@@ -7,7 +7,7 @@
     "email": "pirxpilot@furkot.com",
     "url": "https://pirxpilot.me"
   },
-  "repository": "pirxpilot/run-waterfall-until",
+  "repository": "github:pirxpilot/run-waterfall-until",
   "license": "MIT",
   "keywords": [
     "run-waterfall-until",
