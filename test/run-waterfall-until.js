@@ -1,10 +1,11 @@
+const { describe, it } = require('node:test');
 const assert = require('assert');
 
 const waterfallUntil = require('..');
 
 describe('run waterfall until', function () {
 
-  it('must run all tasks', function (done) {
+  it('must run all tasks', function (_, done) {
 
     function task(a, b, fn) {
       fn(null, false, a + 'A', b + 'B');
@@ -23,7 +24,7 @@ describe('run waterfall until', function () {
   });
 
 
-  it('must exit when task sets exit flag', function (done) {
+  it('must exit when task sets exit flag', function (_, done) {
 
     waterfallUntil([
       (a, b, fn) => fn(undefined, false, a + a, b + b),
@@ -40,7 +41,7 @@ describe('run waterfall until', function () {
   });
 
 
-  it('must exit when task returns an error', function (done) {
+  it('must exit when task returns an error', function (_, done) {
 
     waterfallUntil([
       (a, b, fn) => fn(undefined, false, a + a, b + b),
